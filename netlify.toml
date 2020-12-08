@@ -7,4 +7,6 @@
 [[headers]]
   for = "/widgets/*"
   [headers.values]
-    X-Frame-Options = SAMEORIGIN
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "0"
+
