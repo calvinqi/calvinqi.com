@@ -105,8 +105,15 @@ class WidgetMatrixTemplate extends React.Component {
     this.setState({matrixCode: this.getMatrixCode(matrixVals)})
   };
 
+  isNormalInteger = (str) => {
+    return /^\+?(0|[1-9]\d*)$/.test(str);
+  }
+
   updateRowsInput = (e) => {
     this.setState({rowText: e.target.value});
+    if (!this.isNormalInteger(e.target.value)) {
+      return;
+    }
     let num = parseInt(e.target.value);
     if (isNaN(num) || num <= 0) {
       return;
@@ -120,6 +127,9 @@ class WidgetMatrixTemplate extends React.Component {
 
   updateColsInput = (e) => {
     this.setState({colText: e.target.value});
+    if (!this.isNormalInteger(e.target.value)) {
+      return;
+    }
     let num = parseInt(e.target.value);
     console.log(num);
     if (isNaN(num) || num <= 0) {
