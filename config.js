@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© Calvin Qi 2020',
   disqusShortname: '',
   postsPerPage: 6,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-185064256-1',
   useKatex: false,
   menu: [
     {
