@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'asdf.asdf.fun',
+  url: 'https://calvinqi.com/',
   pathPrefix: '/',
   title: 'calvinqi.com',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
