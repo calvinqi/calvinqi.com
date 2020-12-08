@@ -1,7 +1,5 @@
 // @flow strict
-import React, { useState } from 'react';
-import Layout from '../components/Layout';
-import { useSiteMetadata } from '../hooks';
+import React from 'react';
 
 import 'katex/dist/katex.min.css';
 import { InlineMath } from 'react-katex';
