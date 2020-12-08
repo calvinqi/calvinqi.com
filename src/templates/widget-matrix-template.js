@@ -4,7 +4,7 @@ import React from 'react';
 import 'katex/dist/katex.min.css';
 import { InlineMath } from 'react-katex';
 
-
+const MAX_DIM = 20;
 
 class WidgetMatrixTemplate extends React.Component {
   constructor(props) {
@@ -12,6 +12,8 @@ class WidgetMatrixTemplate extends React.Component {
     this.state = {
       rows: 2,
       cols: 2,
+      rowText: 2, // rowText and colText are based on user input. They may not be valid
+      colText: 2,
       matrixVals: [["1", "0"], ["0", "1"]],
       matrixCode: '\\begin{bmatrix} \n1 & 0 \\\\ \n0 & 1 \\\\ \n\\end{bmatrix}'
     };
@@ -103,28 +105,51 @@ class WidgetMatrixTemplate extends React.Component {
     this.setState({matrixCode: this.getMatrixCode(matrixVals)})
   };
 
+  updateRowsInput = (e) => {
+    this.setState({rowText: e.target.value});
+    let num = parseInt(e.target.value);
+    if (isNaN(num) || num <= 0) {
+      return;
+    }
+    if (num > MAX_DIM) {
+      num = MAX_DIM;
+      this.setState({rowText: MAX_DIM});
+    }
+    this.setState({rows: num}, this.updateMatrixVals);
+  }
+
+  updateColsInput = (e) => {
+    this.setState({colText: e.target.value});
+    let num = parseInt(e.target.value);
+    console.log(num);
+    if (isNaN(num) || num <= 0) {
+      return;
+    }
+    if (num > MAX_DIM) {
+      num = MAX_DIM;
+      this.setState({colText: MAX_DIM});
+    }
+    this.setState({cols: num}, this.updateMatrixVals);
+  }
+  
   render() {
     return (
       <div>
         <div style={{paddingBottom: '4px'}}>
         Rows: <input
                   type="number"
-                  value={this.state.rows}
-                  onChange={
-                    (e) => {this.setState({rows: parseInt(e.target.value)}, this.updateMatrixVals) }
-                  }
+                  value={this.state.rowText}
+                  onChange={this.updateRowsInput}
                   min="1"
-                  max="100"/>
+                  max="20"/>
         </div> 
         <div>
           Cols: <input
                   type="number"
-                  value={this.state.cols}
-                  onChange={
-                    (e) => {this.setState({cols: parseInt(e.target.value)}, this.updateMatrixVals) }
-                  }
+                  value={this.state.colText}
+                  onChange={this.updateColsInput}
                   min="1"
-                  max="100"/>
+                  max="20"/>
         </div> 
         <div style={{margin: '1em'}}>
           <InlineMath math={this.state.matrixCode} />
@@ -137,7 +162,7 @@ class WidgetMatrixTemplate extends React.Component {
         </div>
 
         <h4>LaTeX Code:</h4>
-        <code style={{display: "block", "white-space": "pre-wrap" }}>
+        <code style={{display: "block", whiteSpace: "pre-wrap" }}>
           {this.state.matrixCode}
         </code>
       </div>
