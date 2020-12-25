@@ -31,7 +31,7 @@ module.exports = {
   author: {
     name: 'Calvin Qi',
     photo: '/photo.jpg',
-    bio: 'Big bio here.',
+    bio: 'SWE @ Stealth Startup. Previously ML @ <a href="https://sambanova.ai/" target="_blank">SambaNova</a>, Infra @ <a href="https://engineering.fb.com/" target="_blank">Facebook</a>, Math+CS @ <a href="https://www.stanford.edu/" target="_blank">Stanford</a>',
     contacts: {
       email: 'calvincqi@gmail.com',
       facebook: '',

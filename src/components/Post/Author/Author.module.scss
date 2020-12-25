@@ -9,6 +9,26 @@
   @include margin-top(1);
   @include margin-bottom(2);
 
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+
+    &-photo {
+      flex-shrink: 0;
+    }
+
+    &-right {
+      margin: 0 0 0 14px;
+
+      &-name {
+        color: $color-base;
+        font-weight: bold;
+      }
+    }
+  }
+
   &__bio {
     &-twitter {
       display: block;
