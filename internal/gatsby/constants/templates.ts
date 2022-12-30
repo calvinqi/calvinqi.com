@@ -13,6 +13,7 @@ const templates = Object.freeze({
   categoriesTemplate: path.resolve(
     "./src/templates/CategoriesTemplate/CategoriesTemplate.tsx",
   ),
+  matrixTemplate: path.resolve("./src/templates/MatrixTemplate/MatrixTemplate.tsx"),
   tagTemplate: path.resolve("./src/templates/TagTemplate/TagTemplate.tsx"),
   tagsTemplate: path.resolve("./src/templates/TagsTemplate/TagsTemplate.tsx"),
   pageTemplate: path.resolve("./src/templates/PageTemplate/PageTemplate.tsx"),
