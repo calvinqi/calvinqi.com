@@ -32,31 +32,29 @@ exports[`Post renders correctly 1`] = `
         Aug 31, 2016
       </p>
     </div>
-    <div>
-      <p>
-        NLP @ 
-        <a
-          href="https://glean.com/"
-          target="_blank"
-        >
-          Glean
-        </a>
-        . Previously ML @ 
-        <a
-          href="https://sambanova.ai/"
-          target="_blank"
-        >
-          Sambanova
-        </a>
-        , Math + CS @ 
-        <a
-          href="https://stanford.edu/"
-          target="_blank"
-        >
-          Stanford
-        </a>
-      </p>
-    </div>
+    <p>
+      <b>
+         
+        All rights reserved.
+         
+      </b>
+      <br />
+      Feel free to reach me via 
+      <a
+        href="/email.svg"
+        target="_blank"
+      >
+        email
+      </a>
+       or 
+      <a
+        href="https://www.linkedin.com/in/calvinqi"
+        target="_blank"
+      >
+        LinkedIn
+      </a>
+       :D
+    </p>
   </div>
   <div />
 </div>
