@@ -6,6 +6,7 @@ import { Image } from "@/components/Image";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 import * as styles from "./Author.module.scss";
+import { Bio } from "@/components/Post/Author/Author";
 
 type Props = {
   author: {
@@ -38,7 +39,7 @@ const Author = ({ author, isIndex }: Props) => (
       )}
       <ThemeSwitcher />
     </div>
-    <p className={styles.subtitle}>{author.bio}</p>
+    <p className={styles.subtitle}><Bio /></p>
   </div>
 );
 
