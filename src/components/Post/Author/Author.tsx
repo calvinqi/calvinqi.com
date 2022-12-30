@@ -1,32 +1,31 @@
 import React from "react";
 
 import * as styles from "./Author.module.scss";
+import { Link } from "gatsby";
+import { useSiteMetadata } from "@/hooks";
+import { author } from "@/internal/testing/__mocks__";
 
 const gleanLink = <a href="https://glean.com/" target="_blank">Glean</a>
 const sambanovaLink = <a href="https://sambanova.ai/" target="_blank">Sambanova</a>
 const stanfordLink = <a href="https://stanford.edu/" target="_blank">Stanford</a>
+const linkedInLink = <a href="https://www.linkedin.com/in/calvinqi" target="_blank">LinkedIn</a>
+const emailLink = <a href="/email.svg" target="_blank">email</a>
 
 export const Bio = () => {
   return <>
     NLP @ {gleanLink}. Previously ML @ {sambanovaLink}, Math + CS @ {stanfordLink}
   </>
-  
-}
 
-export const Subtitle = () => {
-  return <>
-    Feel free to reach me via <a href="/email.png" target="_blank">email</a> or <a href="https://www.linkedin.com/in/calvinqi/" target="_blank">LinkedIn</a>! Let's talk :D
-  </>
 }
 
 const Author = () => {
-
+  const {copyright} = useSiteMetadata()
   return (
-    <div className={styles.author}>
-      <p className={styles.bio}>
-        <Bio />
-      </p>
-    </div>
+    <p>
+      <b> {copyright} </b>
+      <br />
+      Feel free to reach me via {emailLink} or {linkedInLink} :D
+    </p>
   );
 };
 
