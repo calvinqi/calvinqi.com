@@ -1,9 +1,6 @@
 import React from "react";
 
-import * as styles from "./Author.module.scss";
-import { Link } from "gatsby";
 import { useSiteMetadata } from "@/hooks";
-import { author } from "@/internal/testing/__mocks__";
 
 const gleanLink = <a href="https://glean.com/" target="_blank">Glean</a>
 const sambanovaLink = <a href="https://sambanova.ai/" target="_blank">Sambanova</a>
