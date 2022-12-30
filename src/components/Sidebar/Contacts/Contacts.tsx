@@ -21,7 +21,7 @@ const Contacts: React.FC<Props> = ({ contacts }: Props) => (
           <li className={styles.item} key={name}>
             <a
               className={styles.link}
-              href={name === "email" ? "/email.svg" : getContactHref(name, contacts[name])}
+              href={name === "email" ? "/email.png" : getContactHref(name, contacts[name])}
               target="_blank"
               rel={`noopener noreferrer${name === "mastodon" ? " me" : ""}`}
             >
