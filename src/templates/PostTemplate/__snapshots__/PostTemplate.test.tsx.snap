@@ -35,16 +35,26 @@ exports[`PostTemplate renders correctly 1`] = `
       </div>
       <div>
         <p>
-          Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+          NLP @ 
           <a
-            href="https://www.twitter.com/#"
-            rel="noopener noreferrer"
+            href="https://glean.com/"
             target="_blank"
           >
-            <strong>
-              John Doe
-            </strong>
-             on Twitter
+            Glean
+          </a>
+          . Previously ML @ 
+          <a
+            href="https://sambanova.ai/"
+            target="_blank"
+          >
+            Sambanova
+          </a>
+          , Math + CS @ 
+          <a
+            href="https://stanford.edu/"
+            target="_blank"
+          >
+            Stanford
           </a>
         </p>
       </div>

@@ -17,7 +17,27 @@ exports[`Sidebar renders correctly 1`] = `
         </h1>
       </div>
       <p>
-        Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+        NLP @ 
+        <a
+          href="https://glean.com/"
+          target="_blank"
+        >
+          Glean
+        </a>
+        . Previously ML @ 
+        <a
+          href="https://sambanova.ai/"
+          target="_blank"
+        >
+          Sambanova
+        </a>
+        , Math + CS @ 
+        <a
+          href="https://stanford.edu/"
+          target="_blank"
+        >
+          Stanford
+        </a>
       </p>
     </div>
     <nav>
