@@ -2,6 +2,7 @@ import React from "react";
 
 import { useSiteMetadata } from "@/hooks";
 
+const harveyLink = <a href="https://harvey.ai/" target="_blank">Harvey</a>
 const gleanLink = <a href="https://glean.com/" target="_blank">Glean</a>
 const sambanovaLink = <a href="https://sambanova.ai/" target="_blank">Sambanova</a>
 const stanfordLink = <a href="https://stanford.edu/" target="_blank">Stanford</a>
@@ -10,13 +11,13 @@ const emailLink = <a href="/email.svg" target="_blank">email</a>
 
 export const Bio = () => {
   return <>
-    NLP @ {gleanLink}. Previously ML @ {sambanovaLink}, Math + CS @ {stanfordLink}
+    AI at {harveyLink}. Previously AI at {gleanLink} and {sambanovaLink}, Math + CS at {stanfordLink}
   </>
 
 }
 
 const Author = () => {
-  const {copyright} = useSiteMetadata()
+  const { copyright } = useSiteMetadata()
   return (
     <p>
       <b> {copyright} </b>

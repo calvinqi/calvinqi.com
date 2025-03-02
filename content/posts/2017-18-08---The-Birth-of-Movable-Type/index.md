@@ -1,8 +1,8 @@
 ---
-title: "(TEST COPY PASTED) Johannes Gutenberg: The Birth of Movable Type"
+title: "(Placeholder) Johannes Gutenberg: The Birth of Movable Type"
 date: "2017-08-18T22:12:03.284Z"
 template: "post"
-draft: false
+draft: true
 slug: "/posts/the-birth-of-movable-type"
 category: "Typography"
 tags:
