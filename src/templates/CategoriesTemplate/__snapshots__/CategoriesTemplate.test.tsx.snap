@@ -18,21 +18,28 @@ exports[`CategoriesTemplate renders correctly 1`] = `
           </h2>
         </div>
         <p>
-          NLP @ 
+          AI at 
+          <a
+            href="https://harvey.ai/"
+            target="_blank"
+          >
+            Harvey
+          </a>
+          . Previously AI at 
           <a
             href="https://glean.com/"
             target="_blank"
           >
             Glean
           </a>
-          . Previously ML @ 
+           and 
           <a
             href="https://sambanova.ai/"
             target="_blank"
           >
             Sambanova
           </a>
-          , Math + CS @ 
+          , Math + CS at 
           <a
             href="https://stanford.edu/"
             target="_blank"
