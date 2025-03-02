@@ -14,6 +14,5 @@ description: "The interesting technical challenges of building RAG at Harvey. Th
 I wrote some blog posts about the many interesting challenges of building Retrieval Augmented Generation (RAG) at Harvey! Here are 3 of them.
 
 1. [Enterprise-Grade RAG Systems](https://www.harvey.ai/blog/enterprise-grade-rag-systems)
-2. [Harvey co-builds custom model for tax with PwC](https://www.harvey.ai/blog/enterprise-grade-rag-systems)
+2. [Harvey co-builds custom model for tax with PwC](https://www.harvey.ai/blog/harvey-co-builds-custom-model-for-tax-with-pwcß)
 3. [Harvey partners with Voyage to build custom legal embeddings](https://www.harvey.ai/blog/harvey-partners-with-voyage-to-build-custom-legal-embeddings)
-
