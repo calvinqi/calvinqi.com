@@ -1,7 +1,6 @@
 ---
 title: "Clay Creations"
 template: "page"
-socialImage: "./cloud.jpg"
 ---
 
 ### Nature Series

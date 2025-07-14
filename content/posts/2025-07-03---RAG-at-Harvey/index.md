@@ -9,7 +9,6 @@ tags:
   - "Harvey"
   - "RAG"
 description: "The interesting technical challenges of building RAG at Harvey. This includes: Deep Research, Enterprise RAG Systems, building a custom Tax AI model with PwC, and fine-tuning legal embeddings."
-socialImage: null
 ---
 
 I wrote some blog posts about the many interesting challenges of building Retrieval Augmented Generation (RAG) at Harvey! Here are 3 of them.
