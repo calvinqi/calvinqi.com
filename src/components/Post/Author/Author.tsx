@@ -7,7 +7,7 @@ const gleanLink = <a href="https://glean.com/" target="_blank">Glean</a>
 const sambanovaLink = <a href="https://sambanova.ai/" target="_blank">Sambanova</a>
 const stanfordLink = <a href="https://stanford.edu/" target="_blank">Stanford</a>
 const linkedInLink = <a href="https://www.linkedin.com/in/calvinqi" target="_blank">LinkedIn</a>
-const emailLink = <a href="/email.svg" target="_blank">email</a>
+const emailLink = <a href="/email.png" target="_blank">email</a>
 
 export const Bio = () => {
   return <>

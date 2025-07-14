@@ -10,7 +10,7 @@ exports[`Author renders correctly 1`] = `
   <br />
   Feel free to reach me via 
   <a
-    href="/email.svg"
+    href="/email.png"
     target="_blank"
   >
     email
