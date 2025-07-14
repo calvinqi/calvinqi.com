@@ -7,7 +7,7 @@ interface Frontmatter {
   description?: string;
   tags?: Array<string>;
   socialImage?: {
-    publicURL: string;
+    publicURL?: string;
   };
 }
 
