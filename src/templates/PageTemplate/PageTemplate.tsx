@@ -46,7 +46,6 @@ export const query = graphql`
     }
   }
 `;
-
 export const Head: React.FC<Props> = ({ data }) => {
   const { title, subtitle, url } = useSiteMetadata();
 
