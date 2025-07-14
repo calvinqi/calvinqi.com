@@ -13,6 +13,10 @@
       "path": "/"
     },
     {
+      "label": "Clay",
+      "path": "/pages/clay"
+    },
+    {
       "label": "Tags",
       "path": "/tags"
     }
@@ -27,7 +31,7 @@
       "github": "calvinqi",
       "facebook": "",
       "telegram": "",
-      "twitter": "",
+      "twitter": "calvincongelado",
       "linkedin": "calvinqi",
       "instagram": "",
       "mastodon": "",
