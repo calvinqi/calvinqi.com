@@ -9,6 +9,7 @@ tags:
   - "Widget"
   - "Math"
 description: "Interactive tool for quickly constructing a matrix and automatically generating the LaTeX source code (because typing out matrices in LaTeX gets annoying)"
+socialImage: null
 ---
 <div>
 <iframe src="/widgets/matrix" width="100%" height="700px" frameBorder="0">
