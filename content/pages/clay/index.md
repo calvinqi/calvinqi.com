@@ -17,13 +17,13 @@ All handmade. Accepting commissions and requests! [View full collection here](ht
     <img src="./media/dog.jpg" alt="Dog" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   </div>
   <div>
-    <img src="./media/sheep.jpg" alt="Sheep" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <img src="./media/chicken.jpg" alt="Chicken" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   </div>
   <div>
     <img src="./media/capybara.jpg" alt="Capybara" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   </div>
   <div>
-    <img src="./media/chicken.jpg" alt="Chicken" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <img src="./media/sheep.jpg" alt="Sheep" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   </div>
   <div>
     <img src="./media/penguin.jpg" alt="Penguin" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
