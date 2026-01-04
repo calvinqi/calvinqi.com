@@ -3,7 +3,7 @@ title: "Clay Creations"
 template: "page"
 ---
 
-All handmade. Accepting commissions and requests! [View full collection here](https://photos.app.goo.gl/shyXhGJc96hwivtZ9).
+All handmade. Accepting commissions and requests!
 
 ### Nature Series
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
